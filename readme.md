@@ -106,6 +106,3 @@ npm start
 - **Stateless Auth**: JWT-based authorization passed via request headers or cookies.
 - **Cookie Security**: Tokens are served via `res.cookie` with HttpOnly flag for enhanced client-side security.
 - **Role Guards**: Middleware validates the `role` field embedded in the JWT payload before granting access to protected routes.
-
-
-- GitHub: [@yourusername](https://github.com/yourusername)
